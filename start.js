@@ -3,7 +3,10 @@ const express = require('express');
 const app = express();
 let you
 
-const sulla = require('sulla');
+// const sulla = require('sulla');
+// toggle between sulla and venom which ever works for you
+const sulla = require('venom-bot');
+
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: true }));
